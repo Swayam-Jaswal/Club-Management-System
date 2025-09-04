@@ -6,6 +6,7 @@ require('dotenv').config();
 
 const authRoutes = require('./routes/auth.routes');
 const adminRoutes = require('./routes/admin.routes');
+const clubRoutes = require("./routes/club.routes");
 const mongoDB = require('./config/db');
 
 const app = express();
@@ -37,6 +38,8 @@ app.use(helmet());
 // routes
 app.use('/auth', authRoutes);
 app.use('/admin', adminRoutes);
+app.use("/api/clubs", clubRoutes);
+
 
 // health check
 app.get('/health', (req, res) => res.json({ ok: true }));
