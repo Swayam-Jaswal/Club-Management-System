@@ -13,7 +13,7 @@ export default function RegisterForm({ formData, handleOnChange, handleSubmit })
           value={formData.name}
           onChange={handleOnChange}
           placeholder="Enter your name"
-          className="w-full px-4 py-2 rounded-lg bg-zinc-800 text-white border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-lg bg-white text-black border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 
@@ -27,7 +27,7 @@ export default function RegisterForm({ formData, handleOnChange, handleSubmit })
           value={formData.email}
           onChange={handleOnChange}
           placeholder="Enter your email"
-          className="w-full px-4 py-2 rounded-lg bg-zinc-800 text-white border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-lg bg-white text-black border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 
@@ -41,7 +41,7 @@ export default function RegisterForm({ formData, handleOnChange, handleSubmit })
           value={formData.password}
           onChange={handleOnChange}
           placeholder="Enter your password"
-          className="w-full px-4 py-2 rounded-lg bg-zinc-800 text-white border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-lg bg-white text-black border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 
@@ -55,7 +55,7 @@ export default function RegisterForm({ formData, handleOnChange, handleSubmit })
           value={formData.confirmPassword}
           onChange={handleOnChange}
           placeholder="Re-enter your password"
-          className="w-full px-4 py-2 rounded-lg bg-zinc-800 text-white border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-lg bg-white text-black border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 
@@ -69,7 +69,7 @@ export default function RegisterForm({ formData, handleOnChange, handleSubmit })
           value={formData.adminCode}
           onChange={handleOnChange}
           placeholder="Enter admin code if any"
-          className="w-full px-4 py-2 rounded-lg bg-zinc-800 text-white border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-lg bg-white text-black border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
 

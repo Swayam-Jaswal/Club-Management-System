@@ -48,9 +48,9 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black px-4">
-      <div className="w-full max-w-md bg-zinc-900 rounded-2xl shadow-lg p-8">
-        <h2 className="text-3xl font-semibold text-white text-center mb-6">
+    <div className="min-h-screen flex items-center justify-center bg-white px-4">
+      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
+        <h2 className="text-3xl font-semibold text-blue-500 text-center mb-6">
           Create an Account
         </h2>
         {boxChange ? (
